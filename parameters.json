@@ -1,0 +1,26 @@
+[
+    {
+        "ParameterKey": "pEnvironment",
+        "ParameterValue": "dev"
+    },
+    {
+        "ParameterKey": "Amount",
+        "ParameterValue": "1000"
+    },
+    {
+        "ParameterKey": "FirstThreshold",
+        "ParameterValue": "75"
+    },
+    {
+        "ParameterKey": "SecondThreshold",
+        "ParameterValue": "99"
+    },
+    {
+        "ParameterKey": "FirstEmail",
+        "ParameterValue": "myemail@corp.com"
+    },
+    {
+        "ParameterKey": "SecondEmail",
+        "ParameterValue": "myemail2@corp.com"
+    }
+]
