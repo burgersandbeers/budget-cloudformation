@@ -9,22 +9,20 @@ Implement Stack Cloud Formation from the Shell for AWS Budget Services
 
 Install jq:
 
-
-  echo y | sudo yum install jq
+`echo y | sudo yum install jq`
   
   
 # Examples of usage
 
+`chmod a+x deploy_cf_budget.sh`
 
-chmod a+x deploy_cf_budget.sh
-
-./deploy_cf_budget.sh -e <ENVIRONMENT> -n <STACK_NAME> -a <AMOUNT>
+`./deploy_cf_budget.sh -e <ENVIRONMENT> -n <STACK_NAME> -a <AMOUNT>`
   
   
 # Optional parameters
-<ENVIRONMENT>  : Name of Environment to work on (Disable)
-<STACK_NAME>   : Name of the CloudFormation stack
-<AMOUNT>       : Amount budget
+1. <ENVIRONMENT>  : Name of Environment to work on (Disable)
+2. <STACK_NAME>   : Name of the CloudFormation stack
+3. <AMOUNT>       : Amount budget
   
   
 
